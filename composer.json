@@ -1,11 +1,11 @@
 {
-    "name": "fordav3/calendar",
-    "description": "Calendar plugin for SeAT, modified to integrate with herpaderpaldent/seat-notifications.",
+    "name": "kassie/calendar",
+    "description": "Calendar plugin for SeAT.",
     "type": "seat-plugin",
     "autoload": {
         "psr-4": {
-            "Seat\\Fordav3\\Calendar\\": "src/",
-            "Seat\\Fordav3\\Calendar\\database\\seeds\\": "src/database/seeds/"
+            "Seat\\Kassie\\Calendar\\": "src/",
+            "Seat\\Kassie\\Calendar\\database\\seeds\\": "src/database/seeds/"
         }
     },
     "require": {
@@ -22,9 +22,6 @@
     }, {
         "name": "Warlof Tutsimo",
         "email": "loic.leuilliot@gmail.com"
-    }, {
-        "name": "Evelyn Rollins",
-        "email": "fordav3@gmail.com@gmail.com"
     }],
     "license": "GPL-3.0-or-later",
     "minimum-stability": "alpha",
@@ -32,7 +29,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Seat\\Fordav3\\Calendar\\CalendarServiceProvider"
+                "Seat\\Kassie\\Calendar\\CalendarServiceProvider"
             ]
         }
     }
